@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "potato";
+    src: url("fontes/potato.otf") format("opentype")
+}
+    @font-face {
+        font-family:"robusta" ;
+        src: url("fontes/robusta.otf") format("opentype");
+    }
+    @font-face {
+        font-family:"roberto" ;
+        src: url("fontes/roberto.ttf") format("opentype");
+    }
+    @font-face {
+        font-family: "debug";
+        src: url("fontes/debug.ttf") format("opentype");
+    }
+   
+    
+
+    
+body{
+    background-color:rgb(159, 61, 7) ;
+    
+    
+    
+    
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: auto;
+    width: 1200px;
+    height: 150px;
+    text-align: center;
+    font-family: potato;
+    
+    border: 8px solid orange;
+    border-bottom: none;
+}
+header h1{
+    color: black;
+    font-size: 3.5em;
+
+}
+header div{
+    background-color: orange;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 0px 0px 50% 50%;
+    
+}
+nav{
+    background-color: black;
+    height: 50px;
+    width: 1200px;
+    margin: auto;
+    border: 8px solid orange;
+    border-bottom: none;
+    border-top: none;
+    color:white;
+    padding-top: 30px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.3em;
+    font-family: debug;
+    
+}
+
+nav a:hover{
+    background-color: orange;
+    border-radius: 10px;
+    color:black;
+    font-weight: bold;
+    
+    
+}
+
+main{
+    color: white;
+    background-color: rgb(0, 0, 0) ;
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+    border: 8px solid orange;
+    border-top: none;
+}
+main h1{
+    font-family: roberto;
+    font-size: 3em;
+    color: black;
+    padding-inline-start: 10px;
+    
+
+    
+}
+main h2{
+    padding-inline-start: 10px;
+    border-bottom: 1px dashed orange;
+    font-size: 1.8em;
+    font-family: debug;
+    
+    
+}
+main h2.porçoes{
+    padding-top:20px;
+}
+main h2.porçoes1{
+ padding-top: 3px;
+}
+main p.porçao{
+    
+    word-spacing: 38px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    float: right;
+    padding-top: 50px;
+    color: orange;
+    
+}
+main strong.negrito{
+    text-decoration: none;
+    padding-inline-start: 141px;
+    word-spacing: 40px;
+    float: right;
+}
+main strong.negrito2{
+    text-decoration: none;
+    padding-inline-start: 122px;
+    word-spacing: 40px;
+    float: right;
+}
+main p{
+    padding-inline-start: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 1.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+
+}
+
+main strong{
+    font-size: 1.1em;
+    text-decoration: underline ;
+    
+}
+main h1.adicionais{
+    font-size: 2em;
+    color: orange;
+}
+
+main p.adiciona{
+    line-height: 5px;
+    padding-inline-start: 20px;
+    font-family: potato;
+    font-size: 1.2em;
+    
+
+}
+main div{
+    background-color: orange;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 1px;
+    padding: 5px;
+    padding-right: 30px;
+    border-radius:0px 50px 50px 0px;
+}
+main strong.bauru{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    
+}
+
+
+
+
